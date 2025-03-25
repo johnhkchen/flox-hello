@@ -1,0 +1,504 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "helix": {
+        "pkg-path": "helix"
+      },
+      "nodejs": {
+        "pkg-path": "nodejs"
+      },
+      "pnpm": {
+        "pkg-path": "pnpm"
+      },
+      "zellij": {
+        "pkg-path": "zellij"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/bkqx6rhkwy83ikz83fs3cklfpakfyrn4-helix-25.01.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "helix-25.01.1",
+      "pname": "helix",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:13:29.479153Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.01.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4gx5n5m4v63hkpmc2gy1r812picdmzv7-helix-25.01.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/f1k30ikwv5lr5wks9khya7f7ili806zj-helix-25.01.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "helix-25.01.1",
+      "pname": "helix",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:35:01.232815Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.01.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nqh1y2q2hf6r3j5w7wgmg5hj145xkvna-helix-25.01.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/vj9v0knk67fq3yd6pds9xkzsmfwhyip4-helix-25.01.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "helix-25.01.1",
+      "pname": "helix",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:54:13.351788Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.01.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ppv31pa09qx3dgl9chmkpcr7xqcy3lsx-helix-25.01.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "helix",
+      "broken": false,
+      "derivation": "/nix/store/xdg489lw7a3smm9hf1ljgkr5mn679g3i-helix-25.01.1.drv",
+      "description": "Post-modern modal text editor",
+      "install_id": "helix",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "helix-25.01.1",
+      "pname": "helix",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:16:50.839730Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "25.01.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/iaw20cfamh885ya4sl41x2na8iq2yaf2-helix-25.01.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/4bl62dvqxj7m1c9jf0h6i7dj8kvmfph3-nodejs-22.14.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "nodejs-22.14.0",
+      "pname": "nodejs",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:13:31.463766Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "22.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/4m6xhygkx74fsd5k99nihgr7vg85f553-nodejs-22.14.0-libv8",
+        "out": "/nix/store/i1v519j66jmvpqr5h382i9nanxwa5l6n-nodejs-22.14.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/m8khc780w6kw2yrzfg4f6d53d8midsr2-nodejs-22.14.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "nodejs-22.14.0",
+      "pname": "nodejs",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:35:09.459107Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "22.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/s8407q9aa2mi2b60zk2mkjjdnv4qw87x-nodejs-22.14.0-libv8",
+        "out": "/nix/store/p6183qmkyfkz5sqlv4wbw6a2nnh1r8jf-nodejs-22.14.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/196ab1kxhfzgd8vv2vspas0r7h4hxks8-nodejs-22.14.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "nodejs-22.14.0",
+      "pname": "nodejs",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:54:15.279547Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "22.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/sx5pbfq09qkl6bfxcljmhf5s1z049693-nodejs-22.14.0-libv8",
+        "out": "/nix/store/mxpq0x25ayiliy6938pflhqvfc1nznkl-nodejs-22.14.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/krrkhhd5vs17c7mx5zrqivf0rrl8w8kq-nodejs-22.14.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "nodejs-22.14.0",
+      "pname": "nodejs",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:17:00.687883Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "22.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/j4w6685rkqwwl03cc8phm8xiyb2xmbnq-nodejs-22.14.0-libv8",
+        "out": "/nix/store/bmakyv5ip1wc9jk155glzdw4vnnrym04-nodejs-22.14.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/1b8vlspmd2b5fkv0qk441v8an43l0f05-pnpm-10.6.5.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "pnpm-10.6.5",
+      "pname": "pnpm",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:13:36.231092Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.6.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3mvfs924rkwslbghxpj7nj85mm7dr154-pnpm-10.6.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/2z8wigxbsnp1kxxk35s12jbbx5dgqx6a-pnpm-10.6.5.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "pnpm-10.6.5",
+      "pname": "pnpm",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:35:18.697038Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.6.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nk5an4k7dc4y6lagis6qf8h2jy3z0alf-pnpm-10.6.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/3fjp9q7jlcbgak7r34nlbfdv1pi3awbv-pnpm-10.6.5.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "pnpm-10.6.5",
+      "pname": "pnpm",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:54:20.072748Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.6.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y7izrrg5k2jr8y1pmg67mypdndkj758g-pnpm-10.6.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/zc8l988zcwyn5saixbg3kc6dqqpa92aa-pnpm-10.6.5.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "pnpm-10.6.5",
+      "pname": "pnpm",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:17:10.724942Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.6.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/f0h5wr87cj838jn7zwybs5z7xq5wb3rw-pnpm-10.6.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zellij",
+      "broken": false,
+      "derivation": "/nix/store/lp7izn3ks7hq73b0rwfqhgr8rc9is2b9-zellij-0.42.1.drv",
+      "description": "Terminal workspace with batteries included",
+      "install_id": "zellij",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "zellij-0.42.1",
+      "pname": "zellij",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:14:23.596652Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.42.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4sy3lgigpx924gwhcqsvy36drvml68c2-zellij-0.42.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zellij",
+      "broken": false,
+      "derivation": "/nix/store/cv2nj46v7b2xa1x4ih5147fihk7lr7yn-zellij-0.42.1.drv",
+      "description": "Terminal workspace with batteries included",
+      "install_id": "zellij",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "zellij-0.42.1",
+      "pname": "zellij",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:36:28.103878Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.42.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/js1ammbn8nwqczq73a9r8s7l2rn4b1n9-zellij-0.42.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zellij",
+      "broken": false,
+      "derivation": "/nix/store/snzr29738cdz44gid3d78vlvz414s2vb-zellij-0.42.1.drv",
+      "description": "Terminal workspace with batteries included",
+      "install_id": "zellij",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "zellij-0.42.1",
+      "pname": "zellij",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T01:55:07.153914Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.42.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5j892a2cgn1ix6lcxk88syjcpp73y4mm-zellij-0.42.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zellij",
+      "broken": false,
+      "derivation": "/nix/store/3dc2bxbbjqgl4b66wsii8zirgymah0wx-zellij-0.42.1.drv",
+      "description": "Terminal workspace with batteries included",
+      "install_id": "zellij",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=1e5b653dff12029333a6546c11e108ede13052eb",
+      "name": "zellij-0.42.1",
+      "pname": "zellij",
+      "rev": "1e5b653dff12029333a6546c11e108ede13052eb",
+      "rev_count": 772522,
+      "rev_date": "2025-03-22T18:57:23Z",
+      "scrape_date": "2025-03-24T02:18:24.299178Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.42.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9azvhc19izxbymrq6n2c5bdg4y9zg71s-zellij-0.42.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
